@@ -8,8 +8,8 @@ public class exercise1 {
 		System.out.println(endsWithRep("foobarbar", "bar", 2)); /* returns true */
 		System.out.println(endsWithRep("foobarbar", "baz", 1));/* returns false */
 		System.out.println(endsWithRep("foobarbar", "barbar", 1));/*returns true*/
-		
-	
+		System.out.println(endsWithRep("tibatemwa", "tiba", 1));/*returns true*/
+		System.out.println(endsWithRep("monkiy", "monke", 1));/*returns false*/
 	 }
 	 public static boolean endsWithRep(String s1, String s2, int n)
 	 {
