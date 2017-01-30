@@ -9,11 +9,11 @@ public class exercise1 {
 
 	
 	 }
-	 public static booleans endsWithRep(String s1, String s2, int n)
+	 public static boolean endsWithRep(String s1, String s2, int n)
 	 {
 	  int counter=0;
 	  int length=s2.length();
-	  for (int i=0;i<s1.length();i++)
+	  for (int i=0;i<=s1.length()-length;i++)
 	  { 
 	 if(s1.substring(i,length)==s2)
 	  counter++;
@@ -21,10 +21,10 @@ public class exercise1 {
 	  }
 	  if (counter==n)
 	  {
-	   return #t;
+	   return true;
 	   }
 	  else {
-	   return #f;
+	   return false;
 	  }
 	 }
 	 
