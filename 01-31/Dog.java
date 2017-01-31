@@ -15,7 +15,7 @@ public class Dog{
         this.trained= true;
     }
     
-    public static age-after-a-year()
+    public static age()
     {
         this.age +=1;
     }
