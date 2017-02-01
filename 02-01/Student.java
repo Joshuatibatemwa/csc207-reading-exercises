@@ -10,22 +10,22 @@ public class Student {
         this.age = age;
     }
     
-    public void setname(String firstName, String lastName){
+    public void setName(String firstName, String lastName){
         this.firstname=firstname;
         this.lastname=lastname;
     }
     
-    public void setid(int ID){
+    public void setID(int ID){
         this.id=id;
     }
     
-    public void setage(int age){
+    public void setAge(int age){
         if(age>0){
             this.age=age;}else{
             throw new IllegalArgumentException();}
     }
     
-    public void viewstudentdetails(){
+    public void viewStudentDetails(){
  
         System.out.println("Student name:"+this.FirstName +" Lastname:"+this.lastName" Age:"+this.age " ID:" +this.id)
             }
