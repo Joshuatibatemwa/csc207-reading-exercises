@@ -3,6 +3,7 @@ public class Student {
     private String lastName;
     private int id;
     private int age;
+    
     public Student (String firstName, String lastName, int id, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
