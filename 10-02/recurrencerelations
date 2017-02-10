@@ -1,0 +1,11 @@
+T(0)=0
+T(n)=1+T(n-2)
+T(n)= 1+(1+T(n-4))
+T(n)=k/2 +T(n-k)
+
+when k=n
+
+T(n)=n/2+T(0)
+T(n)=n/2
+
+T is in BigO(n) that is this is a linear time with respect to input function
