@@ -1,5 +1,9 @@
- Stack             Heap
- c  [  ]--------->Counter
+ Stack             Heap                  Output
+------           ------                 -------
+
+Main
+----
+ c  []--------->Counter
                   value[1]
 
 
