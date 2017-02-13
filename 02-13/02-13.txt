@@ -5,7 +5,10 @@ Main
 ----
  c  []--------->Counter
                   value[1]
+doWork
+-----
 
-
+ c  []--------->Counter
+                  value[0]
 
 2. The value is 1.
