@@ -1,0 +1,7 @@
+ Stack             Heap
+ c  [  ]--------->Counter
+                  value[1 or orginial value +1 ]
+
+
+
+2. The value is 2.
