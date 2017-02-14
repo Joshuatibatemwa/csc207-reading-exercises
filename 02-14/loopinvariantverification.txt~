@@ -1,0 +1,18 @@
+
+
+public static int max(int[] arr) {
+int ret = arr[0];
+for (int i = 1; i < arr.length; i++) {
+if (arr[i] < ret) {
+ret = arr[i];
+}
+}
+return ret;
+}
+
+This particular max implementation does NOT enforce the loop invariant
+properly. This is because within the method the comparison actually ensures
+the minimum value in the array is returned rather than the maximum. The
+condition is if arr{i}<ret then ret=arr[i]; this means if the current array
+element is less than ret, then ret changes to that lesser value. At the end
+of the loop this value is returned.
