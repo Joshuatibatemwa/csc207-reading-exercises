@@ -1,0 +1,15 @@
+I i = new C();
+i.foo(); // (A)
+i.bar(); // (B)
+For lines (A) and (B) above, answer the following questions:
+1. Does the line of code type check?
+A- Yes it does
+B- No it doesn't
+
+2. If so, what is the output?
+
+A-C.foo
+
+
+Subtyping is very precise. bar is safe however it is rejected by Java's
+type system
